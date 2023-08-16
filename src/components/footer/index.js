@@ -7,10 +7,10 @@ import EmailInput from "../InpuField/emailInput";
 
 const AppFooter = () => {
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid  ">
       {/* top section */}
       <div
-        className="row d-flex justify-content-evenly align-items-center py-4"
+        className="row d-flex justify-content-evenly align-items-center py-4 px-4"
         style={{ background: "#f8f9fa" }}
       >
         <div className="col-11  col-lg-6 py-4">
@@ -93,7 +93,7 @@ const AppFooter = () => {
       </div>
       {/* bottom section */}
       <div
-        className="row d-flex justify-content-between align-items-center py-2"
+        className="row d-flex justify-content-between align-items-center py-2 px-4"
         style={{ background: "#2e313a" }}
       >
         <div className="col-12 col-md-8 col-lg-6 ">
