@@ -61,6 +61,26 @@
   font-weight: bold;
   font-size: calc(8px + 6 * ((100vw - 320px) / 680));
 }
+.Footer_heading{
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #95a0ab !important;
+}
+.Footer_text{
+  color: #95a0ab !important;
+  font-weight: 500 !important;
+  font-size:1rem !important;
+  letter-spacing: 1.0px !important;
+}
+.Footer_text:hover {
+  color: #ffffff !important;
+  }
+.footer_div{
+ padding-top: 20px;
+ padding-bottom: 20px;
+  }
 .Secondery_paragraph{
   color: #95a0ab;
   font-size: 1.1rem;

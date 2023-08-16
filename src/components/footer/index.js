@@ -3,10 +3,11 @@ import { BsTelephone, BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
 import { FaGooglePlusG, FaXbox } from "react-icons/fa";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { Payment } from "../../assets";
+import EmailInput from "../InpuField/emailInput";
 
 const AppFooter = () => {
   return (
-    <div className="border border-danger container-fluid">
+    <div className="container-fluid ">
       {/* top section */}
       <div
         className="row d-flex justify-content-evenly align-items-center py-4"
@@ -51,47 +52,42 @@ const AppFooter = () => {
         </div>
       </div>
       {/* middle section */}
-      <div className="row d-flex justify-content-evenly align-items-start">
-        <div className="col-11 col-lg-3 text-start border border-primary">
-          <h4 className="">
-            Quick Link
-          </h4>
+      <div className="row d-flex justify-content-evenly align-items-start py-5 px-4" style={{background:"#272a33"}}>
+        <div className="col-11 col-lg-3 text-start ">
+          <h4 className="Footer_heading">Dorsin</h4>
           <div className="footer_div text-start">
-                <text className="">Email</text>
-                <text className="">Email</text>
-                <text className="">Email</text>
-                <text className="">Email</text>
+            <text className="Footer_text">Home</text>
+            <text className="Footer_text">About us</text>
+            <text className="Footer_text">Careers</text>
+            <text className="Footer_text">Contact us</text>
           </div>
         </div>
-        <div className="col-11 col-lg-3 text-start border border-primary">
-        <h4 className="">
-            Quick Link
-          </h4>
+        <div className="col-11 col-lg-3 text-start ">
+          <h4 className="Footer_heading">Information</h4>
           <div className="footer_div text-start">
-                <text className="">Email</text>
-                <text className="">Email</text>
-                <text className="">Email</text>
-                <text className="">Email</text>
+            <text className="Footer_text">Terms & Condition</text>
+            <text className="Footer_text">About us</text>
+            <text className="Footer_text">Jobs</text>
+            <text className="Footer_text">Bookmarks</text>
           </div>
         </div>
-        <div className="col-11 col-lg-3 text-start border border-primary">
-        <h4 className="">
-            Quick Link
-          </h4>
+        <div className="col-11 col-lg-3 text-start ">
+          <h4 className="Footer_heading">Support</h4>
           <div className="footer_div text-start">
-                <text className="">Email</text>
-                <text className="">Email</text>
-                <text className="">Email</text>
-                <text className="">Email</text>
+            <text className="Footer_text">FAQ</text>
+            <text className="Footer_text">Contact</text>
+            <text className="Footer_text">Disscusion</text>
           </div>
         </div>
-        <div className="col-11 col-lg-3 text-start border border-primary">
-        <h4 className="">
-            Quick Link
-          </h4>
+        <div className="col-11 col-lg-3 text-start ">
+          <h4 className="Footer_heading">Subscribe</h4>
           <div className="footer_div text-start">
-                <text className="">Email</text>
-                <input />
+            <text className="Footer_text">
+              In an ideal world this text wouldn’t exist, a client would
+              acknowledge the importance of having web copy before the design
+              starts.
+            </text>
+            <EmailInput />
           </div>
         </div>
       </div>
